@@ -1,0 +1,12 @@
+env:
+  node: true
+  jest: true
+
+plugins:
+- babel
+
+parser:
+  babel-eslint
+
+rules:
+  no-console: 0
