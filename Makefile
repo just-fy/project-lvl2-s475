@@ -8,7 +8,7 @@ test:
 	npm test
 
 run:
-	npx babel-node 'src/bin/hexlet.js' 10
+	npx babel-node 'src/bin/gendiff.js' 10
 
 publish:
     npm publish --dry-run
