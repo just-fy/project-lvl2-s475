@@ -2,12 +2,14 @@
   "name": "difference-utility-hexlet-nastyafai",
   "version": "0.0.1",
   "description": "Utility to find differences in configuration files",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/just-fy/project-lvl2-s475.git"
