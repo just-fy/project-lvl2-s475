@@ -1,13 +1,12 @@
 {
   "name": "difference-utility-hexlet-nastyafai",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Utility to find differences in configuration files",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
-  "main": "dist/gendiff.js",
   "bin": {
     "gendiff": "dist/bin/gendiff.js"
   },
