@@ -8,7 +8,7 @@ program
 	.option('-f, --format [type]', 'Output format');
 
 program.on('--help', function(){
-	console.log('Hello');
+	console.log(program.opts());
 });
 
 program.parse(process.argv);
