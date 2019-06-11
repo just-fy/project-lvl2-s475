@@ -1,6 +1,6 @@
 {
   "name": "difference-utility-hexlet-nastyafai",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Utility to find differences in configuration files",
   "bin": {
     "gendiff": "dist/bin/gendiff.js"
