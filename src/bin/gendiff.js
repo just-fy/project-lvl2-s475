@@ -1,5 +1,8 @@
+#!/usr/local/bin/env node
 import program from 'commander';
 import { version } from '../../package.json';
+
+console.log('hello');
 
 program
 	.version(version)
